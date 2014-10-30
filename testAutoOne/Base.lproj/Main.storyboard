@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testAutoOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mYQ-oC-Unu">
+                                <rect key="frame" x="16" y="20" width="139" height="139"/>
+                                <color key="backgroundColor" red="0.082352941176470587" green="0.37254901960784315" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mYQ-oC-Unu" secondAttribute="height" multiplier="1:1" id="iPW-qZ-DGF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgn-2u-bfR">
+                                <rect key="frame" x="165" y="20" width="139" height="139"/>
+                                <color key="backgroundColor" red="0.88235294117647056" green="0.19607843137254902" blue="0.41568627450980394" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zgn-2u-bfR" secondAttribute="height" multiplier="1:1" id="l7M-62-aWD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zgn-2u-bfR" secondAttribute="trailing" constant="10" id="4Lu-0F-dY9"/>
+                            <constraint firstItem="mYQ-oC-Unu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="74D-DU-r0Q"/>
+                            <constraint firstItem="zgn-2u-bfR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Kd5-pI-RxO"/>
+                            <constraint firstItem="mYQ-oC-Unu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="bBq-5I-KAL"/>
+                            <constraint firstItem="mYQ-oC-Unu" firstAttribute="width" secondItem="zgn-2u-bfR" secondAttribute="width" id="dgD-3x-0ck"/>
+                            <constraint firstItem="zgn-2u-bfR" firstAttribute="leading" secondItem="mYQ-oC-Unu" secondAttribute="trailing" constant="10" id="pSx-SG-SbP"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
